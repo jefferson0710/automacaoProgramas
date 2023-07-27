@@ -27,7 +27,7 @@ if change_option is not None:
     pyautogui.click(x, y)
 
 # Aguarde alguns segundos para a janela "Membro do Domínio" abrir
-time.sleep(2)fieb.org.br    Geuw82200535@12
+time.sleep(2)fieb.org.br   
 # Encontre e clique na opção "Alterar"
 change_option = pyautogui.locateOnScreen('alterar.png')  # Substitua 'change_option.png' pelo caminho da imagem correspondente
 if change_option is not None:
