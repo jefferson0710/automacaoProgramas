@@ -42,9 +42,9 @@ pyautogui.typewrite('fieb.org.br')
 pyautogui.press('tab')
 
 # Insira as credenciais de administrador do domínio
-pyautogui.typewrite('adm_jefferson.souza')
+pyautogui.typewrite('login')
 pyautogui.press('tab')
-pyautogui.typewrite('Geuw82200535@12')
+pyautogui.typewrite('senha')
 
 # Clique no botão "OK" para ingressar no domínio
 join_button = pyautogui.locateOnScreen('join_button.png')  # Substitua 'join_button.png' pelo caminho da imagem correspondente
